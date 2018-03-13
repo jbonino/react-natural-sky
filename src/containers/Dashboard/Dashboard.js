@@ -36,7 +36,7 @@ class Dashboard extends PureComponent {
         </div>
         <div className={classes.Nav}>
           <NavLink to={this.props.match.path+'/lights'} activeClassName={classes.active} exact>Lights</NavLink>
-          <NavLink to={this.props.match.path+'/solar'} activeClassName={classes.active} exact>Solar</NavLink>
+         {/*  <NavLink to={this.props.match.path+'/solar'} activeClassName={classes.active} exact>Solar</NavLink> */}
           <NavLink to={this.props.match.path+'/education'} activeClassName={classes.active} exact>Education</NavLink>
         </div>
         <div className={classes.Child}>
