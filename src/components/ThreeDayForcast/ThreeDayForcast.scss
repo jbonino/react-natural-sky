@@ -1,0 +1,14 @@
+.container {
+  text-align: center;
+}
+
+.Table{
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 500px) {
+  .Table {
+    width: 90%;
+  }
+}

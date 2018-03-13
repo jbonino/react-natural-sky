@@ -1,0 +1,16 @@
+.container table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.container td,
+.container th {
+  border: 1px solid rgb(220, 220, 220);
+  text-align: left;
+  padding: 8px;
+}
+
+.container tr:nth-child(even) {
+  background-color: #151f29;
+}

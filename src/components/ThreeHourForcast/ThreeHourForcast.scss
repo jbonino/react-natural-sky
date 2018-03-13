@@ -1,0 +1,31 @@
+.container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+  grid-template-rows: auto;
+  grid-column-gap: 5px;
+}
+
+.container button{
+  max-height: 20px;
+  align-self: center;
+}
+
+.container table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container td,
+.container th {
+  border: 1px solid rgb(220, 220, 220);
+  text-align: left;
+  padding: 8px;
+}
+
+.container tr:nth-child(even) {
+  background-color: #151f29;
+}
+

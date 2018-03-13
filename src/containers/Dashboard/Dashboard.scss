@@ -1,0 +1,52 @@
+.Container {
+  display: grid;
+  grid-template-rows: 200px 50px 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+}
+
+.Banner {
+  grid-row: 1/2;
+  max-height: 200px;
+  background-color: black;      
+}
+
+.Nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-self: center;
+}
+
+.Nav a {
+  text-align: center;
+  color: #F9A2E2;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 10px 0px 10px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid #F9A2E2;
+  background-image: url("../../assets/images/gun_metal.png");
+  background-repeat: round;
+}
+
+.Nav a:active,
+.Nav a.active {
+  font-weight: bold;
+  color: #a2faa3;  
+  border: 1px solid #a2faa3;
+}
+
+.Child {
+  background-color: #233344;
+  padding: 0px;
+}
+
+@media (min-width: 800px) {
+  .Child {
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px black;
+    margin: 0 100px;
+  }
+}

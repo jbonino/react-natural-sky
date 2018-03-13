@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.container div {
+  padding: 0px 16px;
+}
+
+.container div:nth-child(1) {
+  border-bottom: 3px solid rgba(1, 42, 80, 0.87);
+}
+
+@media (min-width: 800px) {
+  .container {
+    grid-gap: 16px;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .container div {
+    padding: 16px;
+  }
+
+  .container div:nth-child(1) {
+    border-right: 3px solid rgba(1, 42, 80, 0.87);
+    border-bottom: none;
+  }
+}

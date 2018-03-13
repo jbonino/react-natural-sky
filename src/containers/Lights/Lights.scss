@@ -1,0 +1,20 @@
+.container {
+  padding: 16px;
+  display: grid;
+  grid-template: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  grid-gap: 16px; }
+
+.container .WeeklySummary {
+  width: 100%;
+  padding: 16px;
+  margin: 0 -16px;
+  border-top: 3px solid rgba(0, 61, 117, 0.87);
+  border-bottom: 3px solid rgba(0, 61, 117, 0.87);
+  background-color: #151f29; }
+
+@media (min-width: 800px) {
+  .subGrid {
+    display: grid;
+    grid-template-columns: 2fr 3fr; } }
