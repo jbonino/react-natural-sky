@@ -17,7 +17,6 @@ class Dashboard extends PureComponent {
     this.props.initAlerts();
     this.props.initThreehour();
     /* TODO: rerender after each method, do all in one method */
-    //this.props.all();
 
   }
 

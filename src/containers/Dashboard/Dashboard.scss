@@ -1,3 +1,4 @@
+@import '../../shared/shared.scss';
 .Container {
   display: grid;
   grid-template-rows: 200px 50px 1fr;
@@ -39,7 +40,7 @@
 }
 
 .Child {
-  background-color: #233344;
+  background-color: $primary-color;
   padding: 0px;
 }
 

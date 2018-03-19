@@ -1,0 +1,16 @@
+@import '../../shared/shared.scss';
+
+.container{
+
+}
+
+.Body{
+  padding: $gutter;
+  background-color: $primary-color;
+  code{
+    border-left: 1px solid rgb(3, 133, 255);
+    padding: 10px;
+    background-color: $background-color;
+  }
+  
+}
