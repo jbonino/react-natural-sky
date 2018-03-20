@@ -1,0 +1,19 @@
+@import '../../shared/shared.scss';
+
+.container{
+  margin: $gutter auto;
+}
+
+.title{
+  line-height: 1;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.subtitle{
+  padding-top: 20px;
+  line-height: 1;
+}
+.hint{
+  color: rgb(180, 180, 180);
+  padding-bottom: 20px;
+}

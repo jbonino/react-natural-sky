@@ -1,23 +1,32 @@
 @import "../../shared/shared.scss";
 
-.container {  
+.container {
   border-top: 1px solid $accent;
-  .code {
-    padding: 10px;
-    margin: 0 auto;
-    input {
-      border-radius: 4px;
-      width: 50px;
-    }
-    border-left: 1px solid $accentBright;
-    background-color: $background-color;
+}
+.code {
+  padding: 10px;
+  margin: 0 auto;
+  input {
+    border-radius: 4px;
+    width: 50px;
   }
-  
-  .Cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: $gutter;
-  }
+  border-left: 1px solid $accentBright;
+  background-color: $background-color;
 }
 
+.Cards {
+  padding: $gutter;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: $gutter;
+}
 
+@media (min-width: $smallScreen) {
+  .Cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}

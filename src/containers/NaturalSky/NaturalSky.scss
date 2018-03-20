@@ -1,16 +1,17 @@
-@import '../../shared/shared.scss';
+@import "../../shared/shared.scss";
 
-.container{
-
+.body {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: $gutter;
+  background-color: #233344;
 }
 
-.Body{
-  padding: $gutter;
-  background-color: $primary-color;
-  code{
-    border-left: 1px solid rgb(3, 133, 255);
-    padding: 10px;
-    background-color: $background-color;
-  }
-  
+.code {
+  border-left: 1px solid rgb(3, 133, 255);
+  padding: 10px;
+  background-color: $background-color;
+}
+
+@media (min-width: 800px) {
 }
